@@ -7,5 +7,5 @@ def login(username, password):
         return "Login failed. Invalid username or password."
 if __name__ == "__main__":
     user = input("Enter username: ")
-    pwd = input("Enter password: ")
+    pwd = input("Enter pass: ")
     print(login(user, pwd))
